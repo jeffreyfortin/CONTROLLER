@@ -43,5 +43,7 @@ typedef enum e_led_color t_led_color;
 
 void led_ctrl(int led_num, t_led_color color);
 int post_msg(void *msg_ptr);
+void comm_isr(void);
+int comm_fn_0000(int int_param);
 
 #endif
