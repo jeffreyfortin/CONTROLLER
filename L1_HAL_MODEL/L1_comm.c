@@ -322,7 +322,7 @@ int comm_fn_0019(int int_param) {
 	return (int_param);
 }
 
-int comm_fn_0010(int int_param) {
+int comm_fn_0020(int int_param) {
 	int int_local;
 
 	int_local = int_param;
