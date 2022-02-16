@@ -41,3 +41,17 @@ void comm_isr(void)
 
 	return;
 }
+
+int comm_fn_0000(int int_param) {
+	int int_local;
+
+	int_local = int_param;
+
+	if (int_local == 1)
+                int_param++;
+	
+	if (int_local == 0)
+		int_param--;
+	
+	return (int_param);
+}
